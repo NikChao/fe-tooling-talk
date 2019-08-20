@@ -135,4 +135,4 @@ Now, our setup here is pretty simple, but still quite powerful, and extensible, 
 
 - Testing!!
 
-I don't recommend that you take the small tool we've built today and try to use it, or, extend it, the take home here is that you should build your own, and understand what the pieces are doing. This will give you the power to improve the developer experience of any team you're a part of, by either picking a tool that's right for that problem, or building your own if you can't find one.
+~I don't recommend that you take the small tool we've built today and try to use it, or, extend it, the take home here is that you should build your own, and understand what the pieces are doing. This will give you the power to improve the developer experience of any team you're a part of, by either picking a tool that's right for that problem, or building your own if you can't find one.~
