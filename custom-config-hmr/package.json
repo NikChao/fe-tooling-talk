@@ -1,0 +1,25 @@
+{
+  "name": "custom-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "NikChao <nik.chaourov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js src/app.js",
+    "serve": "node scripts/serve.js src/app.js"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
