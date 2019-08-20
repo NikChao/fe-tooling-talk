@@ -10,7 +10,7 @@
   - what happens if we want to do something like this?
   - `const { log } = require('./log');`
 - Introduce bundling
-  0. The tldr; of bundling is it recursively resolves your imports, and creates a depdency tree of your application. It then puts it all together into one script, so your payloads can stay small, but your app code can still be expressive and modular
+  - The tldr; of bundling is it recursively resolves your imports, and creates a depdency tree of your application. It then puts it all together into one script, so your payloads can stay small, but your app code can still be expressive and modular
   - `browserify index.js -o bundle.js`
   - run the app
   - it does one thing and one thing well!
