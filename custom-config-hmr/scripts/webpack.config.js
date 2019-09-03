@@ -1,7 +1,7 @@
 const path = require('path');
 const { HotModuleReplacementPlugin } = require('webpack');
 
-module.exports = ({ entryName = 'main.js', hotReload = false }) => ({
+module.exports = ({ entryName = 'main.js' }) => ({
   entry: path.resolve(entryName),
   output: {
     filename: 'index.js'
